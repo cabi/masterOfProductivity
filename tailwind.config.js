@@ -13,12 +13,14 @@ module.exports = {
   theme: {
     fontFamily: {
       'body': ['"Source Sans Pro"', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif'],
-      'handwrite': ['"Dancing Script"', 'ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif']
+      'handwrite': ['"Dancing Script"', 'ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      'chapter': ['Aleo', 'ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
     },
     extend: {
       backgroundImage: theme => ({
         'bokeh': "url('~@/assets/images/bokeh.jpg')",
-        'welcome': "url('~@/assets/images/welcome.jpg')"
+        'welcome': "url('~@/assets/images/welcome.jpg')",
+        'supporter': "url('~@/assets/images/supporter.jpg')"
 
       }),
       lineHeight: {

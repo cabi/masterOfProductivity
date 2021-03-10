@@ -1,7 +1,7 @@
 <template>
   <Layout>
 
-    <div class="py-20 bg-bokeh bg-fixed bg-cover">
+    <div class="py-20 mb-20 bg-bokeh bg-fixed bg-cover">
       <div class="container mx-auto px-6 font-bold">
         <h2 class="text-9xl uppercase tracking-widest mb-2 text-blue-300 text-center leading-extra-tight">
           Dein<br /><span class="font-handwrite normal-case tracking-normal text-gray-900">persönliches</span><br />Ergebnis
@@ -14,40 +14,54 @@
     </div>
 
 
-    <div class="py-20 bg-bokeh bg-fixed bg-cover">
-      <div class="container mx-auto px-6 font-bold">
-        <h2>Willkommen!</h2>
-        <h3>UND EIN PAAR WORTE VORAB ...</h3>
+    <div class="p-20 bg-welcome bg-local bg-cover bg-top">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-5xl font-bold uppercase tracking-wider font-chapter mb-2 text-gray-800">Willkommen!</h2>
+        <h3 class="pt-5 tracking-widest uppercase">und ein paar Worte vorab ...</h3>
       </div>
     </div>
-
-    Durch die Antworten, die Du intuitiv in dem Quiz gegeben hast, wurdest Du zu diesem
+    <div class="m-10">
+    <p class="pb-10">Durch die Antworten, die Du intuitiv in dem Quiz gegeben hast, wurdest Du zu diesem
     Ergebnis geleitet. Du wirst Dich in vielem von dem wiederfinden, was Du auf den
     folgenden Seiten liest. Und Du darfst gleichzeitig wissen, dass es eine Momentaufnahme
     Deines Verhaltens im Arbeitskontext ist. Denn es ist so, dass wir in unterschiedlichen
-    Situationen und Rollen andere Verhaltensweisen, Vorlieben und Talente ausleben.
-    Im Grunde haben wir nämlich alle Fähigkeiten für alle Verhaltensweisen in uns veranlagt.
+    Situationen und Rollen andere Verhaltensweisen, Vorlieben und Talente ausleben.</p>
+
+    <p class="pb-10">Im Grunde haben wir nämlich alle Fähigkeiten für alle Verhaltensweisen in uns veranlagt.
     Uns ist unsere Vielschichtigkeit und Wandelbarkeit nur nicht immer bewusst. Aber unser
     Verhalten ist veränderbar, und definiert daher nicht, wer wir sind! Um es zu verdeutlichen:
     wenn Du damals voller Enttäuschung eine schlechte Note aus der Schule nach Hause
     gebracht hast, war es nur eine Bewertung des Augenblicks. Doch Du bist nicht nur die
-    Note, Du bist auch das was Du vorher dafür getan hast und hinterher daraus gelernt hast.
-    Uns ist es daher wichtig, dass dieses Ergebnis nicht nur eine weitere Schublade ist, in die
+    Note, Du bist auch das was Du vorher dafür getan hast und hinterher daraus gelernt hast.</p>
+
+    <p class="pb-15">Uns ist es daher wichtig, dass dieses Ergebnis nicht nur eine weitere Schublade ist, in die
     Du gesteckt wirst. Es ist im Gegenteil eine Einladung an Dich, Dich an Dein wahres
     Potential zu erinnern, und daran, dass Dir alle Möglichkeiten offen stehen. Es dient Deiner
     Selbsterkenntnis und, wenn Du es zulassen magst, kann es ein Anstoß zu Deiner
-    Weiterentwicklung sein.
-    Erkenne in diesem Ergebnis Deine Stärken und Herausforderungen, denn sie sind die
-    Ressourcen Deiner Zukunft. Hab Spaß mit dem kleinen "Reiseführer zu Dir selbst“.
+      Weiterentwicklung sein.</p>
+    <p class="pb-10">Erkenne in diesem Ergebnis Deine Stärken und Herausforderungen, denn sie sind die
+      Ressourcen Deiner Zukunft. Hab Spaß mit dem kleinen "Reiseführer zu Dir selbst“.</p>
+
     <cite>
-    Wer den Weg der Wahrheit geht, stolpert nicht.
-    – Mahatma Gandhi
+      <p  class="text-right">
+    Wer den Weg der Wahrheit geht, stolpert nicht.<br />
+        – Mahatma Gandhi
+      </p>
     </cite>
-    YOURWEBSITE . COM | © 2020 NAME
-    Du bist..
-    DER
-    UNTERSTÜTZER
-    Wa(h)lCoaching
+    </div>
+
+
+    <div class="py-20 mb-20 bg-supporter bg-local bg-cover">
+      <div class="container mx-auto px-6 font-bold">
+        <h3 class="font-handwrite text-9xl text-center text-gray-900 mb-20">Du bist ...</h3>
+        <h2 class="text-8xl tracking-wide uppercase mb-2 text-white text-center">der Unterstützer</h2>
+
+        <h3 class="text-xl tracking-wide mb-2 text-gray-800 text-center pt-36">
+          Wa(h)lCoaching
+        </h3>
+      </div>
+    </div>
+
 
     DEIN INNERER MEISTER
     DER PRODUKTIVITÄT

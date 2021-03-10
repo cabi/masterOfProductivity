@@ -18,6 +18,10 @@ export default function (Vue, { router, head, isClient }) {
       {
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css?family=Dancing+Script:400,400i,700'
+      },
+      {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css?family=Aleo:400,700'
       })
 
 
